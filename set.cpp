@@ -3,9 +3,11 @@ using namespace std;
 
 int main() {
 	
+	// tc - insert,find,erase,count --> O(logn)
+		  // - size, begin, empty --> O(1)
+	
 	set<int> s;
 	
-	// O(logn)
 	s.insert(1);
 	s.insert(143);
 	s.insert(121);
@@ -24,6 +26,10 @@ int main() {
 	
 	cout << s.count(121) << endl;
 	cout << s.count(-21) << endl;
+	
+	cout << s.empty() << endl;
+	
+	// s.find();
 	
 	
 }
