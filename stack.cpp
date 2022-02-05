@@ -7,9 +7,9 @@ int main() {
 	
 	stack<string> s;
 	
-	s.push("baba");
-	s.push("dumka");
-	s.push("billa");
+	s.push("car");
+	s.push("bike");
+	s.push("truck");
 	
 	cout << "top element " << s.top() << endl;
 	
